@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom' //install react-router-dom @types/react-router-dom
 import './App.css'
 import SignupPage from './components/signup_page'
 import LoginPage from './components/login_page'
