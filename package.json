@@ -1,5 +1,7 @@
 {
     "scripts": {
-        "start": "cd Queue_man"
+        "dev": "cd Queue_man && npm run dev",
+        "build": "cd Queue_man && npm run build",
+        "preview": "cd Queue_man && npm run preview"
     }
 }
