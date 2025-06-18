@@ -11,9 +11,7 @@ const LoginPage: React.FC = () => {
 		console.log('Email:', email);
 		console.log('Password:', password);
 		
-		// Add API call for authentication here
-		
-		// Then redirect to dashboard
+		// Navigate to dashboard after login
 		navigate('/dashboard');
 	};
 	

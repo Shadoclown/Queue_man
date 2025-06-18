@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import './App.css'
 import SignupPage from './components/signup_page'
 import LoginPage from './components/login_page'
+import DashboardPage from './components/dashboard_page'
+import AppointmentPage from './components/appointment_page'
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Routes>
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/appointments" element={<AppointmentPage />} />
         <Route path="/" element={<Navigate to="/login" />} />
       </Routes>
     </Router>

@@ -15,10 +15,6 @@ const SignupPage: React.FC = () => {
         console.log("Last Name:", lastname);
         console.log("Email:", email);
         
-        // Add API call for registration here
-        
-        // Then redirect to dashboard or login
-        navigate('/dashboard'); // or navigate('/login')
     }
 
     return (
