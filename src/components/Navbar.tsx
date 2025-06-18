@@ -32,9 +32,9 @@ const Navbar: React.FC<NavbarProps> = ({ activePage }) => {
               <Link to="/appointments" className={getNavLinkClass('appointments')}>
                 Appointments
               </Link>
-              <a href="#" className={getNavLinkClass('calendar')}>
+              <Link to="/calendar" className={getNavLinkClass('calendar')}>
                 📅 Calendar
-              </a>
+              </Link>
               <a href="#" className={getNavLinkClass('profile')}>
                 Profile
               </a>

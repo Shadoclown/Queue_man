@@ -4,6 +4,7 @@ import SignupPage from './components/signup_page'
 import LoginPage from './components/login_page'
 import DashboardPage from './components/dashboard_page'
 import AppointmentPage from './components/appointment_page'
+import CalendarPage from './components/calendar_page'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/appointments" element={<AppointmentPage />} />
+        <Route path="/calendar" element={<CalendarPage />} />
         <Route path="/" element={<Navigate to="/login" />} />
       </Routes>
     </Router>
