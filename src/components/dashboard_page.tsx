@@ -43,7 +43,8 @@ const DashboardPage: React.FC = () => {
     const matchesSearch = appointment.patientName.toLowerCase().includes(searchTerm.toLowerCase()) ||
                         appointment.doctorName.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesStatus = statusFilter === 'All' || appointment.status === statusFilter;
-    return matchesSearch && matchesStatus;
+    const isNotCancelled = appointment.status !== 'Cancelled';
+    return matchesSearch && matchesStatus && isNotCancelled;
   });
 
   return (
